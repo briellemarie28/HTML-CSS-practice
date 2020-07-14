@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+body {
+    background-image: url("/Netflix/assets/netflix.jpg");
+}
+main {
+    text-align: center;
+    display: inline-block; 
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+}
+.info {
+    position: fixed;
+    left: 30%;
+    top: 35%;
+}
+input{
+    width: 400px;
+    height: 48px;
+}
+.trial {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 120%;
+}
+.trial:hover {
+    background-color: #fff;
+    color: red;
+}
+header{
+    width: 100%;
+}
+ul {
+    display: inline-block;
+    font-family: 'Noto Sans', sans-serif;
+    color: #fff;
+    list-style-type: none;
+}
+li {
+    float: left;
+    
+}
+.signin {
+    margin-left: 1100px;
+    height: 30px;
+    width: 80px;
+    border-radius: 5%;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.signin:hover {
+    background-color: #fff;
+    color: red;
+}
+
+.netflix {
+    font-size: 200%;
+    color: red;
+}
